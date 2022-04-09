@@ -39,3 +39,4 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 # Copying SSH key to clipboard
 xclip -selection clipboard < ~/.ssh/id_ed25519.pub
 echo "Your public SSH key now in clipboard, paste it to your Version Control Service."
+# ~~~
