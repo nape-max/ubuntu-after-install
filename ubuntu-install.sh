@@ -15,6 +15,19 @@ sudo apt-get update && \
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io
 # ~~~
 
+# ~~~
+# Install PHP
+sudo apt-get install software-properties-common
+# Ставим недостающий пакет
+sudo apt-get install software-properties-common
+# Добавляем репозиторий в систему
+sudo add-apt-repository ppa:ondrej/php
+# Обновляем список пакетов
+sudo apt-get update
+# Ставим РНР7.2
+sudo apt-get install -y php7.2
+# ~~~
+
 # Configuring Git
 echo "Please enter your git email:"
 read gitEmail
